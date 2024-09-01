@@ -1,0 +1,8 @@
+baseURL = 'https://0xtard.github.io/'
+languageCode = 'en-us'
+title = '0xtard your friendly hacker'
+theme="hugo-theme-terminal"
+
+
+
+
