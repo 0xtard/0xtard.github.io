@@ -34,7 +34,7 @@ theme="hugo-theme-terminal"
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "mov eax, [ebx]"
+        logoText = "Your friendly neighborhood tech nerds"
         logoHomeLink = "/"
 
 [module]
