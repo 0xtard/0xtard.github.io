@@ -16,7 +16,7 @@ theme="hugo-theme-terminal"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Your friendly neighborhood tech nerds"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
