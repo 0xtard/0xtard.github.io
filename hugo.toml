@@ -7,3 +7,40 @@ theme="hugo-theme-terminal"
 	# config help: https://github.com/panr/hugo-theme-terminal?tab=readme-ov-file#how-to-configure
 	# center theme with default width
 	centerTheme = true
+        autoCover = true
+	showLastUpdated = false
+ 	fullWidthTheme = false
+  	showLanguageSelector = false
+   	contentTypeName = "posts"
+    
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+
+    [languages.en.params]
+      subtitle = "A simple, retro theme for Hugo"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "mov eax, [ebx]"
+        logoHomeLink = "/"
+
+[module]
+  # In case you would like to make changes to the theme and keep it locally in you repository,
+  # uncomment the line below (and correct the local path if necessary).
+  # --
+  # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
+[[module.imports]]
+  path = 'github.com/panr/hugo-theme-terminal/v4'
